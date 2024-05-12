@@ -1,0 +1,20 @@
+{
+  "name": "auto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve hotel-example-site -p 53000",
+    "test": "playwright test",
+    "report": "playwright show-report",
+    "report2": "serve playwright-report -p 55000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^20.12.11",
+    "playwright": "^1.44.0",
+    "serve": "^14.2.3"
+  }
+}
